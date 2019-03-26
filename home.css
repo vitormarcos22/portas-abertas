@@ -1,0 +1,405 @@
+/* Corrigindo margem geral da página */
+body {
+  margin: 0;
+}
+
+head, body{
+	font-family: helvética;
+  background-color:white;
+}
+/*PARTES DO CABEÇÁRIO*/
+.tit {
+	font-family: impact;
+	font-size: 42px;
+	position: relative;
+}
+
+.header-container {
+  background-color: #fff;
+  height: auto;
+}
+
+.nav-container {
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.nav-brand {
+  flex-direction: row;
+  display: flex;
+  margin: auto 0;
+}
+
+.nav-logo {
+  max-height: 80px;
+}
+
+.nav-titulo {
+  font-family: impact;
+  font-size: 36px;
+  margin:  auto 0;
+}
+
+.nav-imagem {
+  display: flex;
+}
+
+.portas-abertas {
+  height: 80px;
+  margin: auto 0;
+}
+/*BOTÕES DOS MENUS*/
+.t1 {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 235px;
+  height: 39px;
+  line-height: 39px;
+  color: #fff;
+  text-decoration: none;
+  background: #228B22;
+  text-transform: uppercase;
+  border-radius: 10px 0px 10px 0px;
+  transition: 0.2s ease-in;
+
+}
+.t1:hover, .selected .t1 {
+  background-color: #279f27;
+  background-position: right bottom;
+  color: #222;
+}
+/*PÁGINA "CAMPUS CEARÁ MIRIM"*/
+/*IMAGENS QUE AUMENTAM*/
+.foto img {
+  /*distancia entre uma imagem e a outra*/
+  margin: 0px 5px 5px 0px;
+  border-radius: 5px 0px 5px 0px;
+}
+.header-site {
+  background-image: url(paralax.jpeg);
+  background-position:  center top;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+  color:  #ffff;  
+} 
+
+.filter {
+  background: rgba(18,18,18,0.6)
+}
+
+/*PÁGINE "PROJETOS"*/
+.header-site2 {
+  background-image: url('./3.jpeg');
+  background-position:  center top;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+  color:  #ffff;
+}
+
+ol li{
+  display: inline-block;
+}
+
+li {
+  color: #6C7B8B;
+  border: solid coral 0px;
+  /*relação entre as bordas da caixinha e o conteudo dentro dela*/
+  padding-top: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom:7px;
+  /*margem fora da caixinha*/
+}
+
+.foto img:hover {
+  transform: scale(3.0, 3.0);
+
+}
+/*retira o link de todos os lugares*/
+a {
+	text-decoration: none;
+}
+/*titulos de cada uma das páginas*/
+.titulos {
+  font-family: 'Merriweather', serif;
+  border: solid  2px;
+  border-radius: 5px 0px 5px 0px;
+  /*relação entre as bordas da caixinha e o conteudo dentro dela*/
+  padding-top: 5px;
+  padding-bottom:5px;
+  /*margem fora da caixinha*/
+  margin: 15px;
+  color: black;
+  font-size: 24px;
+}
+
+.lead {
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  font-size: 18px;
+  padding: 2rem 2rem 8rem;
+  margin: 0;
+}
+
+.lead-solo {
+  font-family: 'Merriweather', serif;
+  text-align: justify;
+  font-size: 18px;
+  padding: 10rem 2rem;
+  margin: 0;
+}
+
+/*PÁGINA "CURSOS"*/
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-content {
+  width: 320px;
+  height: auto;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+}
+
+.col img {
+  background-color: #008000;
+  border-radius: 30px 0px 0px 0px;
+  color: #fff;
+}
+.item-3 {
+  background-color: #f79646;
+}
+
+.col-conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #228B22;
+  color: #fff;
+  border-radius: 0px 0px 30px 0px;
+  font-size: 17px;
+}
+
+.descricao-conteudo {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+.n-curso {
+  font-family: 'Merriweather', serif; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #228B22;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  width: 50%;
+  margin: auto;
+}
+/*botão "ver detalhes"*/
+.botao {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border: solid  2px;
+  border-radius: 5px 0px 5px 0px;
+  /*relação entre as bordas da caixinha e o conteudo dentro dela*/
+  padding: 0.5rem;
+  /*margem fora da caixinha*/
+  margin: 0.2rem;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.saibamais{
+  color:  white;
+}
+/*MUDANÇA DE COR AO PASSAR O MOUSE POR CIMA*/
+.botao:hover {
+  color: #008000;
+  background-color: white;
+  border-color: white;
+}
+.modalidade:nth-child(even) {
+  background-color: #008000;  
+}
+
+.modalidades {
+	background-color: #228B22;
+	width: 100%;
+	text-align: center;
+}
+.img-modalidades{
+	width: 15%%;
+	height: 20%;
+	border-radius: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+}
+.titulo-modalidades{
+  font-family: 'Merriweather', serif;
+	font-size: 22px;
+	color:  white;
+}
+.conteudo-modalidades{
+  font-family: 'Open Sans', sans-serif;
+  margin: 1rem;
+	color: white;
+}
+li {
+  display: inline;
+}
+
+.text-center {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+	color:  #ffff;
+  margin: auto;
+  text-align: center;
+  padding-top: 8rem;
+}
+.visita-texto {
+  font-family: 'Open Sans', sans-serif;
+ 	display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #228B22;
+  color: #fff;
+  border-radius: 30px 0px 30px 0px;
+  font-size: 14px;
+  padding: 2rem 1rem;
+}
+
+.grupo-botao {
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos-container {
+  background-color: #008000;
+  flex-direction: column;
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.projetos-titulo {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.projetos-carrossel {
+  height: 200px;
+}
+
+.projetos-carrossel .card {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.carrossel-img {
+  margin: auto auto;
+  height: 200px;
+}
+
+/* Site footer */
+.footer-container {
+  background-color: #003200;
+  justify-content: space-around;
+  display: flex;
+  padding: 2rem 1rem;
+  color: #eee; 
+}
+
+.footer-brand {
+  margin: auto 0;
+}
+
+.footer-sitemap {
+  margin: auto 0;
+}
+
+.sitemap-title {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+.sitemap-list {
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  display: flex;
+  padding: 0;
+}
+
+.sitemap-element {
+  text-decoration: underline;
+  transition: 0.2s ease-in;
+  color:  #eee;
+}
+
+.sitemap-element:hover {
+  color: #fff;
+}
+
+.footer-autores {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+}
+
+.autor {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 540px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tabela-modalidades {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-center img {
+    max-height: 150px;
+    max-width: 250px;
+  }
+}
