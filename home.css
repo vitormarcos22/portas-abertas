@@ -341,6 +341,26 @@ li {
   margin: auto 0;
 }
 
+.footer-brand-logo {
+  display: flex;
+}
+
+.footer-logo {
+  max-height: 80px;
+}
+
+.footer-brand-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin: auto 0;
+}
+
+.footer-brand-label-campus {
+  font-weight: bold;
+  color: #
+}
+
 .footer-sitemap {
   margin: auto 0;
 }
@@ -401,5 +421,18 @@ li {
   .foto-center img {
     max-height: 150px;
     max-width: 250px;
+  }
+
+  .footer-brand-logo {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    max-width: 80px;
+    margin: 0 auto;
+  }
+
+  .row {
+    flex-direction: column;
   }
 }
