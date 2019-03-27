@@ -57,6 +57,7 @@
 		<h2 class="projetos-titulo">
 			Projetos realizados no Campus
 		</h2>
+		<!-- Carrossel de projetos -->
 		<div class="projetos-carrossel">
 			<div class="card">
 				<img src="./projeto1.jpeg" alt="Projeto QRCodeIDSecurity, exibindo um ícone de um cadeado branco sob um fundo verde e um formulário cinza logo abaixo" class="carrossel-img">
@@ -100,10 +101,12 @@
 			</div>
 		</div>
 	</footer>
+	<!-- Importando todos o javascript necessário para o funcionamento do carrossel -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript">
+	//Escrevendo as expressões em JQuery para o funcionamento do Slick Carousel
     $(document).ready(function(){
       $('.projetos-carrossel').slick({
       	infinite: true,
