@@ -1,0 +1,37 @@
+- PRINCIPAIS -
+X- Criar Header.
+XX Juntar IF com "Portas Abertas" e pôr marca d'água.
+X- Mudar fundo da página projetos.
+X- Corrigir erro de transição dos botões.
+X- Justificar textos.
+X- Pôr ícones ao lado dos cursos.
+X- Alterar cor e tamanho dos ícones.
+X- Alterar links de modalidades e ingressos.
+X- Criar carrosel de imagens na área Projetos.
+X- Corrigir caminho para a página 'Início'.
+X- Adicionar Footer.
+
+- EXTRAS -
+X- Adicionar Favicon.
+X- Corrigir container da aba CURSOS.
+X- Deploy no GithubPages.
+X- Corrigir responsividade.
+X- Corrigir legibilidade.
+X- Corrigir margem universal.
+X- Adicionar fontes novas (Open Sans, GoogleFonts).
+X- Corrigir identação.
+X- Refatorar HTML com boas práticas.
+X- Correção de transição dos botões.
+X- Componentização do layout.
+X- Corrigir problemas com alinhamento saindo da página.
+X- Adicionar filtro às imagens.
+X- Alterar logos.
+X- Adicionar acessibilidade.
+-- Comentários no código.
+
+X- Upload final.
+
+-> Horas trabalhadas: 4h23min.
+-> Valor por hora: R$ 30.00.
+
+Total: R$ 131.50
